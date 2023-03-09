@@ -1,6 +1,17 @@
 h1
 {
-text-align:center;
+	@font-face { /* Definición de una fuente LearningCurveProRegular */
+font-family: 'LearningCurveProRegular';
+src: url('LearningCurve_OT-webfont.eot');
+src: url('LearningCurve_OT-webfont.eot?#iefix')
+format('embedded-opentype'),
+url('LearningCurve_OT-webfont.woff') format('woff'),
+url('LearningCurve_OT-webfont.ttf') format('truetype'),
+url('LearningCurve_OT-webfont.svg#LearningCurveProRegular')
+format('svg');
+}
+	text-align:center;
+	background-image: url(https://www.todofondos.net/wp-content/uploads/nba-wallpaper-hd-1024x576.jpg);
 }
 img{
 	width: 500px
